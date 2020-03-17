@@ -13,7 +13,9 @@ def line(arr)
     puts "The line is currently empty."
   end 
 end
-def number(name)
+def number(line,name)
+  line << name 
+  puts "Hello, your new number is #{line.length}"
   
 def take_a_number(line,new_person)
   line << new_person
