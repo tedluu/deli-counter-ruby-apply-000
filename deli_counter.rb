@@ -12,7 +12,9 @@ def line(arr)
   else 
     puts "The line is currently empty."
   end 
-end 
+end
+def number(name)
+  
 def take_a_number(line,new_person)
   line << new_person
   puts "Welcome, #{new_person}. You are number #{line.length} in line."
