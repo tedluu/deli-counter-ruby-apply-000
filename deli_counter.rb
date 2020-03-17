@@ -13,11 +13,11 @@ def line(arr)
     puts "The line is currently empty."
   end 
 end
-line = [] 
-def number(line,name)
+count = 0 
+def number
+  count += 1 
   
-  line << name 
-  puts "Hello, your new number is #{line.length}"
+  puts "Hello, your new number is #{count}"
 end
 def take_a_number(line,new_person)
   line << new_person
